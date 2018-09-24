@@ -7,7 +7,6 @@ class Dog
   end
 end
 
-fido = Dog.new 
-fido.name = "fido"
+fido = Dog.new "fido"
 # fido.instance_variable_set (:@name, "fido")
 # fido.instance_variable_get(:@name)
